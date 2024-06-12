@@ -1,5 +1,5 @@
 [project]
-name = "mov-cli-example"
+name = "goldy-plugin"
 description = "A mov-cli v4 plugin for watching whatever you desire. 🌟"
 authors = [
     {name = "Goldy", email = "goldy@devgoldy.xyz"} # Just an example, replace this with your name and email.
@@ -26,7 +26,7 @@ dependencies = [
     "requests",
     "importlib-metadata; python_version<'3.8'",
 
-    "mov-cli>=4.3"
+    "mov-cli>=4.4alpha5-1"
 ]
 
 dynamic = ["version"]
@@ -37,16 +37,15 @@ dev = [
     "build"
 ]
 
-[project.urls]
-GitHub = "https://github.com/mov-cli/example-plugin"
-BugTracker = "https://github.com/mov-cli/example-plugin/issues"
-
 [tool.setuptools.dynamic]
-version = { attr = "mov_cli_example.__version__" }
+version = { attr = "goldy_plugin.__version__" }
 
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["mov_cli_example*"]
+include = ["goldy_plugin*"]
+
+[tool.setuptools.package-data]
+"goldy_plugin" = ["videos/*"]

@@ -1,7 +1,7 @@
 <div align="center">
 
-  # example-plugin 
-  <sub>A boilerplate for creating mov-cli v4 plugins.</sub>
+  # goldy-example-plugin 
+  <sub>Source code from {insert-yt-video-here}</sub>
 
 </div>
 
@@ -10,8 +10,8 @@ Here's how to install and add the plugin to mov-cli for development.
 
 1. Clone the repo.
 ```sh
-git clone https://github.com/mov-cli/example-plugin.git
-cd example-plugin
+git clone https://github.com/THEGOLDENPRO/goldy-example-plugin.git
+cd goldy-example-plugin
 ```
 
 2. Install in editable mode.
@@ -26,10 +26,13 @@ mov-cli -e
 ```
 ```toml
 [mov-cli.plugins]
-namespace = "package_name" # check out the wiki for more: https://github.com/mov-cli/mov-cli/wiki/Plugins#%EF%B8%8F-how-to-install-plugins
+goldy = "goldy_plugin" # check out the wiki for more: https://github.com/mov-cli/mov-cli/wiki/Plugins#%EF%B8%8F-how-to-install-plugins
 ```
 
 4. Create away. 😊
+```sh
+mov-cli -s goldy abc
+```
 
 <br>
 

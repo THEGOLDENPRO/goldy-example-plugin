@@ -8,9 +8,9 @@ from .scraper import *
 
 plugin: PluginHookData = {
     "version": 1, # plugin hook version
-    "package_name": "mov-cli-example", # pypi package name
+    "package_name": "goldy-plugin", # pypi package name
     "scrapers": {
-        "DEFAULT": Example, 
+        "DEFAULT": GoldyScraper, 
     }
 }
 
