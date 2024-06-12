@@ -5,6 +5,9 @@
 
 </div>
 
+## Before use!
+You must dump some videos in the goldy_plugin/videos to test this.
+
 ## Installation for development.
 Here's how to install and add the plugin to mov-cli for development.
 
