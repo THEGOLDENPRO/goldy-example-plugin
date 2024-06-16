@@ -1,7 +1,7 @@
 <div align="center">
 
   # goldy-example-plugin 
-  <sub>Source code from {insert-yt-video-here}</sub>
+  <sub>*Source code from https://youtu.be/2I84JHQRTfQ*</sub>
 
 </div>
 
